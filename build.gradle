@@ -1,0 +1,28 @@
+apply plugin: 'com.android.library'
+
+android {
+    compileSdk 32
+    namespace 'com.blissos.updatersdk'
+
+    defaultConfig {
+        minSdk 4
+        targetSdk 32
+    }
+
+    sourceSets {
+        main {
+            java.srcDirs = ['src']
+            aidl.srcDirs = ['src']
+            manifest.srcFile 'AndroidManifest.xml'
+            res.srcDirs = ['res']
+        }
+    }
+
+    buildFeatures {
+        aidl = true
+    }
+}
+
+dependencies {
+
+}

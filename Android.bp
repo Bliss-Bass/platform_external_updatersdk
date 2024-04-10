@@ -1,0 +1,12 @@
+android_library {
+    name: "bliss_updater_sdk",
+    sdk_version: "current",
+    
+    resource_dirs: [
+        "res",
+    ],
+    srcs: [
+        "src/**/*.java",
+        "src/**/*.aidl",
+    ],
+}
