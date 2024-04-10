@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="no_error">No error</string>
+    <string name="no_service">Service not found</string>
+    <string name="unknown">Unknown</string>
+
+</resources>
